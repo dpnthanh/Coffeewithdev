@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Coffee with dev</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="full_name">Đặng Phạm Nhật Thanh</string>
+    <string name="email">dpnthanh@gmail.com</string>
+</resources>

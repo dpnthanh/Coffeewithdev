@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background_buyIt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_SanPham_FragmentBuyIt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/coffee_9"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/TextView_NameBuy_FragmentBuyIt"
+        android:text="Tên sản phẩm"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#424949"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+            <RadioButton
+                android:id="@+id/RadioSizeS_FragmentBuyIt"
+                android:text="Size S"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/RadioSizeM_FragmentBuyIt"
+                android:text="Size M"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/RadioSizeL_FragmentBuyIt"
+                android:text="Size L"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/Button_Buy_FragmentBuyIt"
+        android:text="Other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button_Back_FragmentBuyIt"
+        android:text="Trở về other"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
